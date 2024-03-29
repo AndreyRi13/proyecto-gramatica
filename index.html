@@ -8,7 +8,7 @@
     <h1>Validador de Gramática</h1>
 
     <label for="grammar">Introduce la gramática:</label>
-    <textarea id="grammar" rows="4" cols="50"></textarea>
+    <textarea id="grammar" rows="4" cols="50" placeholder="Formato de ejemplo: S -> AB | BC&#10;A -> BA | a&#10;B -> CC | b&#10;C -> AB | a"></textarea>
 
     <label for="word">Introduce la palabra:</label>
     <input type="text" id="word">
@@ -21,5 +21,45 @@
     <div id="result"></div>
 
     <script src="./js/index.js"></script>
+    <hr>
+    <h2>Ejemplos:</h2>
+    <h3>Ejemplo 1:</h3>
+    <p>
+        <strong>Gramática:</strong><br>
+        S -> AB<br>
+        A -> a<br>
+        B -> b<br>
+        <strong>Palabra:</strong> ab<br>
+        <strong>Resultado esperado:</strong> La palabra es válida.
+    </p>
+    <h3>Ejemplo 2:</h3>
+    <p>
+        <strong>Gramática:</strong><br>
+        S -> AB<br>
+        A -> a<br>
+        B -> b<br>
+        <strong>Palabra:</strong> ba<br>
+        <strong>Resultado esperado:</strong> La palabra no es válida.
+    </p>
+    <h3>Ejemplo 3:</h3>
+    <p>
+        <strong>Gramática:</strong><br>
+        S -> AB | BC<br>
+        A -> BA | a<br>
+        B -> CC | b<br>
+        C -> AB | a<br>
+        <strong>Palabra:</strong> baab<br>
+        <strong>Resultado esperado:</strong> La palabra no es válida.
+    </p>
+    <h3>Ejemplo 4:</h3>
+    <p>
+        <strong>Gramática:</strong><br>
+        S -> AB | BC<br>
+        A -> BA | a<br>
+        B -> CC | b<br>
+        C -> AB | a<br>
+        <strong>Palabra:</strong> baba<br>
+        <strong>Resultado esperado:</strong> La palabra no es válida.
+    </p>
 </body>
 </html>
