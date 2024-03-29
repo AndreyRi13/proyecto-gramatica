@@ -28,3 +28,9 @@ El algoritmo funciona de la siguiente manera:
 3. Comprobación final: Una vez que la tabla está completa, se comprueba si el símbolo de inicio de la gramática está en la celda que representa la cadena de entrada completa. Si es así, la cadena puede ser generada por la gramática.
 
 En nuestro archivo `index.js`, la función `cyk` implementa este algoritmo. Utiliza la función `getProductionsForPair` para buscar las producciones que pueden generar un par de variables, y la función `cartesianProduct` para obtener todos los pares posibles de conjuntos de variables.
+
+## Conclusión
+
+Este proyecto demuestra la implementación del algoritmo CYK para validar si una cadena puede ser generada por una gramática libre de contexto dada. A través de este proyecto, hemos podido entender y aplicar los conceptos de gramáticas, producciones y el algoritmo CYK en un contexto práctico.
+
+Esperamos que este proyecto sea útil para aquellos que estén interesados en el análisis de gramáticas y en la implementación de algoritmos de análisis de lenguajes formales. Agradecemos cualquier contribución para mejorar la eficiencia del algoritmo o para expandir la funcionalidad del proyecto.
