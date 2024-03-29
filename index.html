@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validador de Gramática</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <h1>Validador de Gramática</h1>
+
+    <label for="grammar">Introduce la gramática:</label>
+    <textarea id="grammar" rows="4" cols="50"></textarea>
+
+    <label for="word">Introduce la palabra:</label>
+    <input type="text" id="word">
+
+    <button onclick="validate()">Validar</button>
+    
+    <button type="button" id="clearButton">Limpiar</button>
+
+
+    <div id="result"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
