@@ -38,13 +38,13 @@ Gramática:
 
 Esta gramática define tres reglas de producción. La variable S puede generar la cadena AB, la variable A puede generar la cadena a, y la variable B puede generar la cadena b.
 
+```
 S -> AB
 A -> a
 B -> b
+```
 
-Palabra:
-
-ab
+Palabra: `ab`
 
 Esta palabra es una cadena de dos caracteres, a y b.
 
@@ -56,11 +56,13 @@ Entrada:
 
 Gramática:
 
+```
 S -> AB
 A -> a
 B -> b
+```
 
-Palabra: ba
+Palabra: `ba`
 
 Al hacer clic en el botón de validar, la salida sería: "La palabra no es válida."
 
@@ -70,12 +72,14 @@ Entrada:
 
 Gramática:
 
+```
 S -> AB | BC
 A -> BA | a
 B -> CC | b
 C -> AB | a
+```
 
-Palabra: baab
+Palabra: `baab`
 Al hacer clic en el botón de validar, la salida sería: "La palabra no es válida."
 
 ## Ejemplo 4:
@@ -84,12 +88,14 @@ Entrada:
 
 Gramática:
 
+```
 S -> AB | BC
 A -> BA | a
 B -> CC | b
 C -> AB | a
+```
 
-Palabra: baba
+Palabra: `baba`
 Al hacer clic en el botón de validar, la salida sería: "La palabra no es válida."
 
 
