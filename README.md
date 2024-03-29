@@ -80,6 +80,7 @@ C -> AB | a
 ```
 
 Palabra: `baab`
+
 Al hacer clic en el botón de validar, la salida sería: "La palabra no es válida."
 
 ## Ejemplo 4:
@@ -96,6 +97,7 @@ C -> AB | a
 ```
 
 Palabra: `baba`
+
 Al hacer clic en el botón de validar, la salida sería: "La palabra no es válida."
 
 
