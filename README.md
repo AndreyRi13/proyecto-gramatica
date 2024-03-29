@@ -52,25 +52,45 @@ Si introduces esta gramática y esta palabra en tu validador de gramática y hac
 
 ## Ejemplo 2
 
+Entrada:
 
 Gramática:
 
-Esta gramática define tres reglas de producción. La variable S puede generar la cadena AB, la variable A puede generar la cadena a, y la variable B puede generar la cadena b.
-
-S
-A B
-a b
 S -> AB
 A -> a
 B -> b
 
-Palabra:
+Palabra: ba
 
-ab
+Al hacer clic en el botón de validar, la salida sería: "La palabra no es válida."
 
-Esta palabra es una cadena de dos caracteres, a y b.
+## Ejemplo 3:
 
-Si introduces esta gramática y esta palabra en tu validador de gramática y haces clic en el botón "Validar", el validador de gramática debería determinar que la palabra ab puede ser generada por la gramática
+Entrada:
+
+Gramática:
+
+S -> AB | BC
+A -> BA | a
+B -> CC | b
+C -> AB | a
+
+Palabra: baab
+Al hacer clic en el botón de validar, la salida sería: "La palabra no es válida."
+
+## Ejemplo 4:
+
+Entrada:
+
+Gramática:
+
+S -> AB | BC
+A -> BA | a
+B -> CC | b
+C -> AB | a
+
+Palabra: baba
+Al hacer clic en el botón de validar, la salida sería: "La palabra no es válida."
 
 
 ## Conclusión
